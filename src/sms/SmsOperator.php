@@ -2,9 +2,7 @@
 
 /**
  * Created by PhpStorm.
- * User: Administrator
- * Date: 2016/12/14
- * Time: 13:10
+ * User: luis hou
  */
 namespace luis\sms;
 
