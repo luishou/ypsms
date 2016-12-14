@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: luis hou
  */
-namespace Luishou\Tools;
+namespace Luishou\YpSms\Tools;
 
 class Result
 {
