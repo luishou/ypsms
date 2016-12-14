@@ -17,17 +17,11 @@ class SmsOperator
     public $api_secret;
     public $yunpian_config;
 
-    public function __construct($apikey = null, $api_secret = null)
+    public function __construct($api_key = null, $api_secret = null)
     {
         $this->yunpian_config = $GLOBALS['YUNPIAN_CONFIG'];
-        if ($api_secret == null)
-            $this->api_secret = $this->yunpian_config['API_SECRET'];
-        else
-            $this->api_secret = $apikey;
-        if ($apikey == null)
-            $this->apikey = $this->yunpian_config['APIKEY'];
-        else
-            $this->apikey = $api_secret;
+        $this->apikey = $api_key;
+        $this->api_secret = $api_secret;
     }
 
     public function encrypt(&$data)

@@ -2,12 +2,8 @@
 /*
  * config file
  */
-//You can get the APIKEY and APISECRET from http://www.yunpian.com/ when log on.
 
 $yunpian_config = array();
-$yunpian_config['APIKEY'] = "xxxxxx";
-// php sdk 暂不支持加密算法
-$yunpian_config['API_SECRET'] = "xxxxxx";
 
 //System
 $yunpian_config['SMS_HOST'] = 'https://sms.yunpian.com';
