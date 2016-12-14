@@ -3,9 +3,9 @@
  * Created by PhpStorm.
  * User: luis hou
  */
-namespace Luishou\YpSms\Http;
+namespace YpSms\Http;
 
-use Luishou\YpSms\Tools\Result;
+use YpSms\Tools\Result;
 
 class HttpUtil
 {

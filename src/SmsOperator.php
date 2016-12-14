@@ -4,10 +4,10 @@
  * Created by PhpStorm.
  * User: luis hou
  */
-namespace Luishou\YpSms;
+namespace YpSms;
 
-use Luishou\YpSms\Http\HttpUtil;
-use Luishou\YpSms\Tools\Result;
+use YpSms\Http\HttpUtil;
+use YpSms\Tools\Result;
 
 require "config.php";
 
