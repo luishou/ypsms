@@ -4,10 +4,10 @@
  * Created by PhpStorm.
  * User: luis hou
  */
-namespace luis\sms;
+namespace Luis\Sms;
 
-use luis\http\HttpUtil;
-use luis\tools\Result;
+use Luis\Http\HttpUtil;
+use Luis\Tools\Result;
 
 require "config.php";
 
