@@ -3,9 +3,9 @@
  * Created by PhpStorm.
  * User: luis hou
  */
-namespace Luis\Http;
+namespace Luishou\Http;
 
-use Luis\Tools\Result;
+use Luishou\Tools\Result;
 
 class HttpUtil
 {
